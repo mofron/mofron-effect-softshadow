@@ -1,6 +1,6 @@
 /**
- * @file mofron-effect-dev/index.js
- * @brief effect module template for developper
+ * @file mofron-effect-textshadow/index.js
+ * @brief text shadow effect modulw for mofron Text component
  * @license MIT
  */
 const cmputl = mofron.util.component;
@@ -9,9 +9,10 @@ module.exports = class extends mofron.class.Effect {
     /**
      * initialize effect
      * 
-     * @param (mixed) 
+     * @param (mixed) value parameter
      *                key-value: effect config
-     * @short
+     * @param (mixed) color parameter
+     * @short value,color
      * @type private
      */
     constructor (p1,p2) {
