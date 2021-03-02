@@ -1,0 +1,6 @@
+<setting>
+    <tag load="mofron-comp-text">Text</tag>
+    <tag load="mofron-effect-textshadow">Txtshadow</tag>
+</setting>
+
+<Text effect=Txtshadow>Text Shadow</Text>
